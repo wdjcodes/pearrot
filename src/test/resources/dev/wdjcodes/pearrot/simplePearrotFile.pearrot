@@ -1,0 +1,6 @@
+class MyPearrot {
+    int myFunc(){
+        int id = 18;
+        id = id + 18;
+    }
+}
