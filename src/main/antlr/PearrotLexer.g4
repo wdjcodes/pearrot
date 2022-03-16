@@ -11,6 +11,7 @@ WS                      : [\t \r\n]+ -> skip;
 //Keywords
 INT                     : 'int';
 CLASS                   : 'class';
+RETURN                  : 'return';
 
 //Literals
 INTLIT                  : [0-9]+;
