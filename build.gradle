@@ -28,8 +28,7 @@ generateGrammarSource {
 }
 
 sourceSets {
-    generated {
+    main {
         java.srcDir "$generatedSrc"
     }
 }
-compileJava.source(sourceSets.generated.java)
